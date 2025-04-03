@@ -2,6 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import Games from "./models/Games.js";
 import User from "./models/users.js";
+import Auth from "./middleware/Auth.js";
 const app = express();
 
 // Importando as rotas (endpoints) de Games
